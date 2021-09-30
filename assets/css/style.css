@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 input[type=checkbox]:checked ~ .navigation__list {
   transform: translateX(0%);
 }
-@media (max-width: 800px) {
+@media (max-width: 400px) {
   .navigation {
     position: fixed;
     z-index: 100;
@@ -336,7 +336,7 @@ input[type=checkbox]:checked ~ .navigation__list {
 }
 
 .header {
-  background: url(/assets/images/imagen1.png);
+  background: url(https://pbidro.github.io/desafio_tienda-xda/assets/images/imagen1.png);
   background-size: cover;
   height: 50vh;
 }
