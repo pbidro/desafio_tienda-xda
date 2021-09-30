@@ -1,0 +1,48 @@
+.main{
+
+ 
+
+    &__container{
+        padding-left: 3rem;
+        position: relative;
+        width: 100%;
+    }
+
+    &__title {font-size: $xxx-large;
+    font-weight: 700;}
+
+    &__text{
+    padding: 1rem 0rem;
+    width: 80%;
+    font-size: $x-large;
+    line-height: 1.8rem;}
+
+    &__button{
+        margin-top:1rem;
+    }
+
+
+}
+
+.header{
+    //background: url(https://pbidro.github.io/desafio_blog-barber-shop/assets/images/post-image.jpg) no-repeat;
+    background: url(/assets/images/imagen1.png) ;
+    background-size: cover;
+    height: 50vh;
+
+}
+
+@media (min-width: 992px) {
+.main{
+    display: flex;
+    width:40%;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header{
+    width: 60%;
+    float: right;
+    height: 90vh;
+}
+}

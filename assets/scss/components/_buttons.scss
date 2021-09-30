@@ -1,0 +1,20 @@
+.button{
+
+    background-color: $white; /* Green */
+    border: none;
+    color: $smockyblack;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border:0.5px solid $smockyblack;
+    font-size: $x-large;
+    font-weight: 700;
+    &:hover{
+        border-color:$isabelline;
+    }
+    &:active{
+        border-color: $isabelline;
+        color:$isabelline;
+    }
+}
